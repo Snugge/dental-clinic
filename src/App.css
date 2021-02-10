@@ -30,3 +30,9 @@
   .underLine {
   border: 2px solid  #26e6c8;
   }
+
+
+/* Main menu */
+.nav-link.active {
+    border-bottom: 2px solid #4eb4e8;
+}

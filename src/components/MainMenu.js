@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 export const MainMenu = () => {
     return (
@@ -18,10 +19,10 @@ export const MainMenu = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ms-auto">
-                    <a className="nav-link " aria-current="page" href="!#">Home</a>
-                    <a className="nav-link" href="!#">About</a>
-                    <a className="nav-link" href="!#">Services</a>
-                    <a className="nav-link " href="!#" tabindex="-1">Contact</a>
+                    <NavLink className="nav-link" exact to="/">Home</NavLink>
+                    <NavLink className="nav-link" exact to="/about">About</NavLink>
+                    <NavLink className="nav-link" exact to="/services">Services</NavLink>
+                    <NavLink className="nav-link" exact to="/contact">Contact</NavLink>
                 </div>
                 </div>
             </div>
