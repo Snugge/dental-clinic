@@ -5,6 +5,8 @@ function App() {
     <div className="App">
       Dental Clinic hello test2
 
+      Dental Clinic hello
+      Mikael
     </div>
   );
 }
