@@ -33,6 +33,14 @@
 
 
 /* Main menu */
+.main.navbar {
+  padding: 2rem 0;
+}
+
 .nav-link.active {
     border-bottom: 2px solid #4eb4e8;
+}
+
+.brand-logo {
+  max-width: 180px;
 }

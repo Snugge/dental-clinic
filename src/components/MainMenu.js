@@ -3,17 +3,17 @@ import { Link, NavLink } from 'react-router-dom';
 
 export const MainMenu = () => {
     return (
-        <nav className="navbar  sticky-top navbar-expand-lg navbar-light bg-light ">
+        <nav className="main navbar sticky-top navbar-expand-lg navbar-light bg-light ">
             <div className="container ">
-                <a className="navbar-brand" href="!#">LOGO</a>
+                <a className="navbar-brand " href="!#"><img className="brand-logo" src="./image/DentialClinic_logo.svg" alt=""/></a>
                 <button
-                className="navbar-toggler"
-                type="button"
-                data-mdb-toggle="collapse"
-                data-mdb-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+                    className="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
                 >
                 <i className="fas fa-bars"></i>
                 </button>
