@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const ShowCase = () => {
     return ( 
@@ -73,7 +74,9 @@ export const ShowCase = () => {
                     <h1>ensure safety</h1>
                     <p>our clinic is equipped with the highest quality medical and dental equipment,</p> 
                     <p>which allows for quick and effective treatment of the patient</p>
-                    <button type="button" className="btn btnColor text-white">About our clinic</button>
+                    <button type="button" className="btn btnColor ">
+                    <Link className="nav-link text-white" exact to="/about">About our clinic</Link>    
+                    </button>
                 </div> 
             </div>
 
