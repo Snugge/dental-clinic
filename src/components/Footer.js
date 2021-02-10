@@ -2,8 +2,10 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-        <div>
-            <h1>Footer</h1>
-        </div>
+        <footer className=" bgfot text-center text-xl-start">
+            <div className=" bgfb text-center p-3 text-white" >
+                © 2020 Copyright:DentalClinic
+            </div>
+        </footer>
     )
 }
