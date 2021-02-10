@@ -1,23 +1,28 @@
 import './App.css';
 import { MainMenu } from './components/MainMenu';
 import { TopMenu } from './components/TopMenu';
-import { ShowCase } from './components/ShowCase';
-import { AboutUs } from './components/AboutUs';
-import { Services } from './components/Services';
 import { Appointment } from './components/Appointment';
 import { Footer } from './components/Footer';
+import { BrowserRouter , Route , Switch } from 'react-router-dom';
+import { Home } from './views/Home';
+import { About } from './views/About';
+import { Services } from './views/Services';
+import { Contact } from './views/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter >
       <TopMenu/>
       <MainMenu/>
-      <ShowCase/>
-      <AboutUs/>
-      <Services/>
+      <Switch>
+        <Route path="/" exact component={Home}/>
+        <Route path="/About" exact component={About}/>
+        <Route path="/Services" exact component={Services}/>
+        <Route path="/Contact" exact component={Contact}/>
+      </Switch>
       <Appointment/>
       <Footer/>
-    </div>
+    </BrowserRouter>
   );
 }
 
