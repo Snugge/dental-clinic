@@ -18,10 +18,10 @@ export const AboutUs = () => {
 
                             <hr className="underLine" />
                             <p className="card-text">
-                                The DentialClinic Center located in the city of Stockholm is one of the most modern dentistry centers in Sweden. It was created for demanding patients who expect the highest quality of services combined with comfort and a pleasant atmosphere.
+                                The Dential Clinic Center located in the city of Stockholm is one of the most modern dentistry centers in Sweden. It was created for demanding patients who expect the highest quality of services combined with comfort and a pleasant atmosphere.
                         </p>
                             <p className="card-text">
-                                The highest-class dental equipment possessed by the DentialClinic Center enables complicated procedures to be carried out. In our dental practice we combine passion, technology and quality. We strive to fulfill your dreams of a wonderful smile.
+                                The highest-class dental equipment possessed by the Dential Clinic Center enables complicated procedures to be carried out. In our dental practice we combine passion, technology and quality. We strive to fulfill your dreams of a wonderful smile.
                         </p>
                             <div className="row numbers">
                                 <div className="col-sm m-1">
