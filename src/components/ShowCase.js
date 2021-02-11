@@ -9,7 +9,7 @@ export const ShowCase = () => {
 
                     <div
                         id="carouselBasicExample"
-                        className="carousel slide carousel-fade  col-lg-6"
+                        className="carousel slide carousel-fade col-lg-6"
                         data-mdb-ride="carousel"
                     >
                         {/* <!-- Indicators --> */}

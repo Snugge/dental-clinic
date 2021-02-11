@@ -20,7 +20,7 @@ function App() {
         <Route path="/About" exact component={About}/>
         <Route path="/Services" exact component={Services}/>
         <Route path="/Contact" exact component={Contact}/>
-        <Route path="*" exact component={NotFound}/>
+        <Route path="*"  component={NotFound}/>
       </Switch>
       <Appointment/>
       <Footer/>
