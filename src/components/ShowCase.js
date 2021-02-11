@@ -6,7 +6,6 @@ export const ShowCase = () => {
         <div className="bgCarousel">
             <div className="container">
                 <div className="row g-0">
-
                     <div
                         id="carouselBasicExample"
                         className="carousel slide carousel-fade  col-lg-6"
@@ -75,9 +74,9 @@ export const ShowCase = () => {
                         <div className="m-5">
                             <h2 className="mb-4">Modern technologies <br />ensure safety</h2>
                             <p className="mb-5">our clinic is equipped with the highest quality medical and dental equipment, which allows for quick and effective treatment of the patient</p>
-                            <button type="button" className="btn btnColor ">
-                                <Link className="nav-link text-white" exact to="/about">About our clinic</Link>
-                            </button>
+                            
+                            <Link className="btn btnColor text-white px-5 py-3" exact to="/about">About our clinic</Link>
+                            
                         </div>
                     </div>
                 </div>

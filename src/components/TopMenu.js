@@ -6,7 +6,7 @@ export const TopMenu = () => {
             <div className="container" >
                 <div className="hours">
                     <i className="far fa-clock text-primary"></i>
-                    <span> Working Hour: Monday - Friday: 9:00 - 18:00 </span>
+                    <span> Working hours: Monday - Friday: 9:00 - 18:00 </span>
                 </div>
                 <div  >
                     <a href={"https://www.facebook.com"} target="_blank" className="m-2"  style={{color: "#3b5998"}} ><i className="fab fa-facebook-f"></i></a>
