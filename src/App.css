@@ -7,6 +7,9 @@
 html, body {
   /* font-size: 1.125rem; */
 }
+body {
+  background-color: #f7f7f7;
+}
 
 h1, h2, h3, h4, h5, .navbar-nav  {
   font-family: 'Roboto Slab', serif;
@@ -22,19 +25,22 @@ h1, h2, h3, h4, h5, .navbar-nav  {
   border-bottom: gray 1px solid;
   }
   
-  .bgfot{
+  .bgfot {
     background-color: #4eb4e8;
   }
   
-  .bgfb{
+  .bgfb {
     background-color: #2baaec;
   }
   
-  .btnColor{
-    background-color: #26e6c8;
+  .btnColor {
+    background-color: #25E6C8;
+  }
+  .aboutUsBg {
+    background-color: #fff;
   }
   
-  .bgCarousel{
+  .bgCarousel {
     background-color: #dedede;
   }
   
@@ -60,10 +66,16 @@ h1, h2, h3, h4, h5, .navbar-nav  {
 .brand-logo {
   max-width: 180px;
 }
+/* About us */
 
+.numbers p {
+  font-family: 'Roboto Slab', serif;
+  font-size: .8rem;
+
+}
 /* Services */
 .service-icon {
-  max-width: 60px;
+  max-width: 80px;
 }
 
 .card-title {

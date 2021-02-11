@@ -5,8 +5,11 @@ import { Services } from '../components/Services';
 
 export const Home = () => {
     return (
-        <div className="container">
+        <div className="">
+            
             <ShowCase/>
+            
+            
             <AboutUs/>
             <Services/>
         </div>
