@@ -1,7 +1,8 @@
-import React from 'react'
-import { HappyPatients } from './HappyPatients'
-import { OpenClinic } from './OpenClinic'
-import { PerformedTreatments } from './PerformedTreatments'
+import React from 'react';
+import { HappyPatients } from './HappyPatients';
+import { OpenClinic } from './OpenClinic';
+import { PerformedTreatments } from './PerformedTreatments';
+import { Link } from 'react-router-dom';
 
 export const AboutUs = () => {
     return (
@@ -10,7 +11,7 @@ export const AboutUs = () => {
             
             <div className="col-md-6 ">
                 <div className="card-body m-4">
-                    <h4 className="card-title">Dential <a href="!#" className="linkColor" >Clinic</a> is a Modern</h4>
+                    <h4 className="card-title">Dential <Link className="link linkColor" exact to="/about"> Clinic </Link> is a Modern</h4>
                     <h4 className="card-title">medical and dental Clinic</h4>
                     <hr className="lineColor" />
                     <p className="card-text">
