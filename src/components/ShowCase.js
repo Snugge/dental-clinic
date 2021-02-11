@@ -57,7 +57,7 @@ export const ShowCase = () => {
                             role="button"
                             data-mdb-slide="prev"
                         >
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="carousel-control-prev-icon"></span>
                             <span className="visually-hidden">Previous</span>
                         </a>
                         <a
@@ -66,7 +66,7 @@ export const ShowCase = () => {
                             role="button"
                             data-mdb-slide="next"
                         >
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="carousel-control-next-icon"></span>
                             <span className="visually-hidden">Next</span>
                         </a>
 
@@ -80,7 +80,6 @@ export const ShowCase = () => {
                             </button>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
