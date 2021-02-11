@@ -9,7 +9,7 @@ export const ShowCase = () => {
 
                     <div
                         id="carouselBasicExample"
-                        className="carousel slide carousel-fade w-50 h50 col-sm-6"
+                        className="carousel slide carousel-fade  col-lg-6"
                         data-mdb-ride="carousel"
                     >
                         {/* <!-- Indicators --> */}
@@ -71,9 +71,9 @@ export const ShowCase = () => {
                         </a>
 
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-lg-6">
                         <div className="m-5">
-                            <h1 className="mb-4">Modern technologies <br />ensure safety</h1>
+                            <h2 className="mb-4">Modern technologies <br />ensure safety</h2>
                             <p className="mb-5">our clinic is equipped with the highest quality medical and dental equipment, which allows for quick and effective treatment of the patient</p>
                             <button type="button" className="btn btnColor ">
                                 <Link className="nav-link text-white" exact to="/about">About our clinic</Link>
