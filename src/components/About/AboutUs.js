@@ -11,7 +11,7 @@ export const AboutUs = () => {
                 <div className="row g-0">
                     <div className="col-lg-6 ">
                         <div className="card-body m-4">
-                            <h4 className="card-title">Dential <Link className="link linkColor" exact to="/about"> Clinic </Link> is a Modern
+                            <h4 className="card-title">Dential <Link className="link linkColor" to="/about"> Clinic </Link> is a Modern
                         <br />
                         medical and dental Clinic
                         </h4>
