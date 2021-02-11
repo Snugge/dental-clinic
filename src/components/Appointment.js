@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Appointment = () => {
     return (
-        <footer className=" bgfot text-center text-xl-start">
+        <footer className="bgfot text-center text-xl-start">
             <div className="container p-4 pb-0">
                 <form action="">
                     <div className="row">

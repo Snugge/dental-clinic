@@ -8,10 +8,11 @@ import { Home } from './views/Home';
 import { About } from './views/About';
 import { Services } from './views/Services';
 import { Contact } from './views/Contact';
+import NotFound from './views/NotFound';
 
 function App() {
   return (
-    <BrowserRouter >
+    <BrowserRouter>
       <TopMenu/>
       <MainMenu/>
       <Switch>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/About" exact component={About}/>
         <Route path="/Services" exact component={Services}/>
         <Route path="/Contact" exact component={Contact}/>
+        <Route path="*" exact component={NotFound}/>
       </Switch>
       <Appointment/>
       <Footer/>
