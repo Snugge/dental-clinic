@@ -8,6 +8,14 @@ html, body {
   /* font-size: 1.125rem; */
 }
 
+h1, h2, h3, h4, h5, .navbar-nav  {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+.navbar-nav {
+  font-weight: 400;
+}
+
 
 .bgtn {
   background-color: #ffffff;
@@ -34,12 +42,9 @@ html, body {
     color: #2baaec;
   }
   
-  .lineColor{
-    border: 2px solid #26e6c8;
-  }
-  
   .underLine {
-  border: 2px solid  #26e6c8;
+    border: 2px solid  #26e6c8;
+    opacity: 1;
   }
 
 
@@ -59,4 +64,8 @@ html, body {
 /* Services */
 .service-icon {
   max-width: 60px;
+}
+
+.card-title {
+    margin-bottom: 1.5rem;
 }

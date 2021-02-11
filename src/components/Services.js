@@ -3,9 +3,9 @@ import React from 'react'
 export const Services = () => {
     return (
         <div className="m-5 " >
-            <div>
+            <div className="mb-5">
                 <h3 className="text-center" >Our Services</h3>
-                <hr className="underLine" />
+                <hr className="underLine w-25 mx-auto" />
             </div>
             <div className="card-group container">
                 <div className="card m-2 col-md-3 shadow-5-strong rounded-3 text-center">
