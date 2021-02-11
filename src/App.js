@@ -12,7 +12,7 @@ import NotFound from './views/NotFound';
 
 function App() {
   return (
-    <BrowserRouter >
+    <BrowserRouter>
       <TopMenu/>
       <MainMenu/>
       <Switch>
