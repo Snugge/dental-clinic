@@ -74,9 +74,10 @@ export const ShowCase = () => {
                     <h1>ensure safety</h1>
                     <p>our clinic is equipped with the highest quality medical and dental equipment,</p> 
                     <p>which allows for quick and effective treatment of the patient</p>
-                    <button type="button" className="btn btnColor ">
-                    <Link className="nav-link text-white" exact to="/about">About our clinic</Link>    
-                    </button>
+                    
+                    <Link className="nav-link text-white" exact to="/about"><button type="button" className="btn btnColor ">
+                    About our clinic</button></Link>    
+                    
                 </div> 
             </div>
 
