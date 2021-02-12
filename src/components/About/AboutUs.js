@@ -17,7 +17,7 @@ export const AboutUs = () => {
                 The highest-class dental equipment possessed by the Dential Clinic Center enables complicated procedures to be carried out. In our dental practice we combine passion, technology and quality. We strive to fulfill your dreams of a wonderful smile.
             </p>
         </div>
-    const linkName=readMore?'Read Less << ':'Read More >> '
+    const linkName = readMore ? 'Read Less << ':'Read More >> '
 
     return (
         <div className="aboutUsBg">
@@ -32,8 +32,8 @@ export const AboutUs = () => {
 
                             <hr className="underLine" />
                             <h6 className="card-text">
-                                The Dential Clinic Center located in the city of Stockholm is one of the most modern dentistry centers in Sweden.
-                                <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}> {linkName} </a>
+                                The Dential Clinic Center located in the city of Stockholm is one of the most modern dentistry centers in Sweden. 
+                                <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}>{ linkName }</a>
                                 {readMore && extraContent}
                             </h6>                            
                             <div className="row numbers">
