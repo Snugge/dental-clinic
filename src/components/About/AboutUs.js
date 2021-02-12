@@ -33,7 +33,7 @@ export const AboutUs = () => {
                             <hr className="underLine" />
                             <p className="card-text">
                                 The Dential Clinic Center located in the city of Stockholm is one of the most modern dentistry centers in Sweden.
-                                <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}><h6>{linkName}</h6></a>
+                                <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}> {linkName} </a>
                                 {readMore && extraContent}
                             </p>                            
                             <div className="row numbers">
