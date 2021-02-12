@@ -5,9 +5,9 @@ export const MainMenu = () => {
     return (
         <nav className="main navbar sticky-top navbar-expand-lg navbar-light bg-light ">
             <div className="container ">
-                <NavLink exact to="/">
-                    <img className="brand-logo" src="./image/DentialClinic_logo.svg" alt=""/>
-                </NavLink>    
+               <NavLink exact to="/">
+                    <img className="brand-logo" src={ process.env.PUBLIC_URL + "/image/DentialClinic_logo.svg" }alt=""/>
+                </NavLink>        
                 <button
                     className="navbar-toggler"
                     type="button"

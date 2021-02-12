@@ -10,7 +10,7 @@ const NotFound = () => {
   }, 2000)
 
   return (
-    <div>
+    <div className="container content py-4">
       <h1>404 not found</h1>
     </div>
   )
