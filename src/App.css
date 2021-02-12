@@ -103,10 +103,13 @@ h1, h2, h3, h4, h5, .navbar-nav  {
 .hours span {
   color: #626262;
 }
+/* Pages */
+.content {
+  background-color: #fff;
+}
 
 
 /* About us */
-
 .numbers p {
   font-family: 'Roboto Slab', serif;
   font-size: .8rem;
@@ -126,9 +129,40 @@ h1, h2, h3, h4, h5, .navbar-nav  {
   color: #4eb4e8;
   letter-spacing: 1px;
   cursor: pointer;
+  display: block;
+  margin: 15px 0;
 }
 
 .read-more-link:hover {
   color: #4eb4e8;
   text-decoration: underline;
+}
+.about{
+  text-align: center;
+}
+.h1-about{
+  text-align: left;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.h1-contact{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.contact{
+  text-align: center;
+}
+.h1-services{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.p-About{
+  margin-bottom: 3rem;
+}
+.h3-services{
+  text-align: center;
+}
+.h5-services{
+  text-align: center;
+  margin-bottom:3rem;
 }
