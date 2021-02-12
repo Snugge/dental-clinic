@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export const AboutUs = () => {
     
-    const [readMore,setReadMore]=useState(false);
+    const [readMore,setReadMore] = useState(false);
 
     const extraContent = 
         <div>
