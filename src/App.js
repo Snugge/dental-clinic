@@ -13,7 +13,7 @@ import BookAnApointment from './views/BookAnApointment';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/dental-clinic">
       <TopMenu/>
       <MainMenu/>
       <Switch>
@@ -22,7 +22,7 @@ function App() {
         <Route path="/Services" exact component={Services}/>
         <Route path="/Contact" exact component={Contact}/>
         <Route path="/BookAnApointment" exact component={BookAnApointment}/>
-        <Route path="*" exact component={NotFound}/>
+        {/* <Route path="*" exact component={NotFound}/> */}
       </Switch>
       <Appointment/>
       <Footer/>
