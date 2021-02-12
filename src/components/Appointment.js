@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export const Appointment = () => {
     return (
-        <footer className=" bgfot text-center text-xl-start">
+        <footer className="bgfot text-center text-xl-start">
             <div className="container p-4 pb-0">
                 <form action="">
                     <div className="row">

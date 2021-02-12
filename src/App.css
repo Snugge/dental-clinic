@@ -1,27 +1,46 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html, body {
+  /* font-size: 1.125rem; */
+}
+body {
+  background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, .navbar-nav  {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+.navbar-nav {
+  font-weight: 400;
+}
+
+
 .bgtn {
   background-color: #ffffff;
-  border-bottom: gray 1px solid;
+  border-bottom: 1px solid #a8a8a8;
   }
   
-  .bgfot{
+  .bgfot {
     background-color: #4eb4e8;
   }
   
-  .bgfb{
+  .bgfb {
     background-color: #2baaec;
   }
   
-  .btnColor{
-    background-color: #26e6c8;
+  .btnColor {
+    background-color: #25E6C8;
+  }
+  .aboutUsBg {
+    background-color: #fff;
   }
   
-  .bgCarousel{
+  .bgCarousel {
     background-color: #dedede;
   }
   
@@ -29,12 +48,9 @@
     color: #2baaec;
   }
   
-  .lineColor{
-    border: 2px solid #26e6c8;
-  }
-  
   .underLine {
-  border: 2px solid  #26e6c8;
+    border: 2px solid  #26e6c8;
+    opacity: 1;
   }
 
 
@@ -83,4 +99,36 @@
 .pSub{
   text-align: center;
   margin-bottom: 3rem;
+} 
+.hours span {
+  color: #626262;
+}
+
+
+/* About us */
+
+.numbers p {
+  font-family: 'Roboto Slab', serif;
+  font-size: .8rem;
+
+}
+/* Services */
+.service-icon {
+  max-width: 80px;
+}
+
+.card-title {
+    margin-bottom: 1.5rem;
+}
+
+
+.read-more-link{
+  color: #4eb4e8;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.read-more-link:hover {
+  color: #4eb4e8;
+  text-decoration: underline;
 }

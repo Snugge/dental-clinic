@@ -5,7 +5,9 @@ export const MainMenu = () => {
     return (
         <nav className="main navbar sticky-top navbar-expand-lg navbar-light bg-light ">
             <div className="container ">
-                <a className="navbar-brand " href="!#"><img className="brand-logo" src="./image/DentialClinic_logo.svg" alt=""/></a>
+                <NavLink exact to="/">
+                    <img className="brand-logo" src="./image/DentialClinic_logo.svg" alt=""/>
+                </NavLink>    
                 <button
                     className="navbar-toggler"
                     type="button"

@@ -13,7 +13,7 @@ import BookAnApointment from './views/BookAnApointment';
 
 function App() {
   return (
-    <BrowserRouter >
+    <BrowserRouter>
       <TopMenu/>
       <MainMenu/>
       <Switch>
