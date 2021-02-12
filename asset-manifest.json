@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dental-clinic/static/css/main.bf949b0c.chunk.css",
+    "main.js": "/dental-clinic/static/js/main.312fd783.chunk.js",
+    "main.js.map": "/dental-clinic/static/js/main.312fd783.chunk.js.map",
+    "runtime-main.js": "/dental-clinic/static/js/runtime-main.08f45a61.js",
+    "runtime-main.js.map": "/dental-clinic/static/js/runtime-main.08f45a61.js.map",
+    "static/js/2.707f6cb1.chunk.js": "/dental-clinic/static/js/2.707f6cb1.chunk.js",
+    "static/js/2.707f6cb1.chunk.js.map": "/dental-clinic/static/js/2.707f6cb1.chunk.js.map",
+    "index.html": "/dental-clinic/index.html",
+    "static/css/main.bf949b0c.chunk.css.map": "/dental-clinic/static/css/main.bf949b0c.chunk.css.map",
+    "static/js/2.707f6cb1.chunk.js.LICENSE.txt": "/dental-clinic/static/js/2.707f6cb1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08f45a61.js",
+    "static/js/2.707f6cb1.chunk.js",
+    "static/css/main.bf949b0c.chunk.css",
+    "static/js/main.312fd783.chunk.js"
+  ]
+}
