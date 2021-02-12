@@ -13,7 +13,7 @@ export const Appointment = () => {
                         <div className="col-md-5 col-12 mb-4 mb-md-0">
                         </div>
                         <div className="col-auto mb-4 mb-md-0">
-                        <Link  to="/BookAnApointment"><button type="submit" className="btn btn-light text-info mb-4 ">Book an appointment</button></Link>
+                        <Link to="/BookAnApointment"><button type="submit" className="btn btn-light text-info mb-4 ">Book an appointment</button></Link>
                         </div>
                     </div>
                 </form>
