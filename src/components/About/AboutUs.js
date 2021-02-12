@@ -1,10 +1,24 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { HappyPatients } from './HappyPatients';
 import { OpenClinic } from './OpenClinic';
 import { PerformedTreatments } from './PerformedTreatments';
 import { Link } from 'react-router-dom';
 
 export const AboutUs = () => {
+    
+    const [readMore,setReadMore]=useState(false);
+
+    const extraContent = 
+        <div>
+            <p>
+                It was created for demanding patients who expect the highest quality of services combined with comfort and a pleasant atmosphere.
+            </p>
+            <p>    
+                The highest-class dental equipment possessed by the Dential Clinic Center enables complicated procedures to be carried out. In our dental practice we combine passion, technology and quality. We strive to fulfill your dreams of a wonderful smile.
+            </p>
+        </div>
+    const linkName=readMore?'Read Less << ':'Read More >> '
+
     return (
         <div className="aboutUsBg">
             <div className="container">
@@ -18,11 +32,10 @@ export const AboutUs = () => {
 
                             <hr className="underLine" />
                             <p className="card-text">
-                                The Dential Clinic Center located in the city of Stockholm is one of the most modern dentistry centers in Sweden. It was created for demanding patients who expect the highest quality of services combined with comfort and a pleasant atmosphere.
-                        </p>
-                            <p className="card-text">
-                                The highest-class dental equipment possessed by the Dential Clinic Center enables complicated procedures to be carried out. In our dental practice we combine passion, technology and quality. We strive to fulfill your dreams of a wonderful smile.
-                        </p>
+                                The Dential Clinic Center located in the city of Stockholm is one of the most modern dentistry centers in Sweden.
+                                <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}><h6>{linkName}</h6></a>
+                                {readMore && extraContent}
+                            </p>                            
                             <div className="row numbers">
                                 <div className="col-sm m-1">
                                     <HappyPatients />
