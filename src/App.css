@@ -103,10 +103,13 @@ h1, h2, h3, h4, h5, .navbar-nav  {
 .hours span {
   color: #626262;
 }
+/* Pages */
+.content {
+  background-color: #fff;
+}
 
 
 /* About us */
-
 .numbers p {
   font-family: 'Roboto Slab', serif;
   font-size: .8rem;

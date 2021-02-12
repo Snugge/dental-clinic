@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export const AboutUs = () => {
     
-    const [readMore,setReadMore] = useState(false);
+    const [ readMore , setReadMore ] = useState(false);
 
     const extraContent = 
         <div>
@@ -26,16 +26,16 @@ export const AboutUs = () => {
                     <div className="col-lg-6 ">
                         <div className="card-body m-4">
                             <h4 className="card-title">Dential <Link className="link linkColor" to="/about"> Clinic </Link> is a Modern
-                        <br />
-                        medical and dental Clinic
-                        </h4>
+                                <br />
+                                medical and dental Clinic
+                            </h4>
 
                             <hr className="underLine" />
-                            <p className="card-text">
+                            <h6 className="card-text">
                                 The Dential Clinic Center located in the city of Stockholm is one of the most modern dentistry centers in Sweden.
                                 <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}> {linkName} </a>
                                 {readMore && extraContent}
-                            </p>                            
+                            </h6>                            
                             <div className="row numbers">
                                 <div className="col-sm m-1">
                                     <HappyPatients />

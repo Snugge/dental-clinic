@@ -13,6 +13,7 @@ export const Contact = () => {
 			<p>Phone nr: +1 753 92 0987</p>
 			<p>e:mail: Dentalclinicpro@.org</p>
 			</section>
+			
 
 		</div>
 	)
