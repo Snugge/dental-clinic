@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contact = () => {
 	return (
-		<div>
+		<div className="container content py-4">
 			<h1 className="h1-contact">Contact us:</h1>
 			<br/>
 			<section className="contact"> 

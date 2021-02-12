@@ -29,7 +29,8 @@ const BookAnApointment = () => {
     }                                                            // access State with 'value' on 'form' and add event(onchange for Set the state with new(input value))
 
     return (
-        <div>
+        <div className="container content py-4">
+            <h1>Book</h1>
             <form className='form' onSubmit={handleSubmit}>
                 <div className='form-control'>
                     <label htmlFor="firstName">Firstname: </label>

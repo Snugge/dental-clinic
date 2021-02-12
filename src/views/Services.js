@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Services = () => {
 	return (
-		<div>
+		<div className="container content py-4">
 			<section>
 			<h1 className="h1-services">Services:</h1>
 			<h3 className="h3-services">We can offer you different services in many areas</h3>

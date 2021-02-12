@@ -2,7 +2,7 @@ import React from 'react'
 
 export const About = () => {
 	return (
-		<div className="container content py-5">
+		<div className="container content py-4">
 			<h1>About</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ultricies velit. Vivamus nec velit id metus aliquet dictum. Duis pulvinar faucibus diam, non fermentum nunc suscipit in. Nulla id odio massa. Proin rhoncus massa sem, quis dictum diam eleifend sit amet. Donec lobortis luctus quam quis rhoncus. Pellentesque porta ante nec neque faucibus, eu tincidunt augue commodo.</p>
 
