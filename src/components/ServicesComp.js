@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const Services = () => {
-    return (
-        <div className="my-5 " >
+const ServicesComp = () => {
+	return (
+		<div className="my-5 " >
             <div className="mb-5">
                 <h3 className="text-center" >Our Services</h3>
                 <hr className="underLine w-25 mx-auto" />
@@ -72,5 +72,7 @@ export const Services = () => {
 
             </div>
         </div>
-    )
+	)
 }
+
+export default ServicesComp
