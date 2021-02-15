@@ -1,80 +1,13 @@
 import React from 'react'
+import ServicesComp from '../components/ServicesComp'
 
 export const Services = () => {
 	return (
 		<div className="container content py-4" >
-			<h1>About</h1>
+			<h1>About Services</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac ultricies velit. Vivamus nec velit id metus aliquet dictum. Duis pulvinar faucibus diam, non fermentum nunc suscipit in. Nulla id odio massa. Proin rhoncus massa sem, quis dictum diam eleifend sit amet. Donec lobortis luctus quam quis rhoncus. Pellentesque porta ante nec neque faucibus, eu tincidunt augue commodo.</p>
 			<p>Sed in tortor accumsan, rutrum est non, aliquam felis. Phasellus lacus dui, tristique non lorem at, egestas posuere arcu. Donec eu leo a augue tempor faucibus. In hac habitasse platea dictumst. Quisque elementum libero vitae libero pharetra hendrerit. Sed nec viverra nisl. Nunc feugiat vestibulum nibh, ullamcorper consectetur elit vulputate eu. Nunc bibendum ut massa pulvinar placerat. Aenean nulla nulla, egestas id nisi vitae, rutrum finibus sem. Nunc eros odio, pellentesque eu massa eget, laoreet ullamcorper lacus. Vestibulum eget quam ut nisi tincidunt vulputate. Suspendisse nec mi in libero dignissim semper. Donec quis volutpat odio, ut hendrerit turpis. Ut convallis pharetra nunc.</p>
-            <div className="mb-5">
-                <h3 className="text-center" >Our Services</h3>
-                <hr className="underLine w-25 mx-auto" />
-            </div>
-            <div className="card-group container">
-                <div className="card m-2 col-md-3 shadow-5-strong rounded-3 text-center">
-                    <div className="card-body my-4">
-                        <img src={ process.env.PUBLIC_URL + "/image/icons/icon-1.svg" } alt="Icon" className="service-icon mb-4" />
-                        <h5 className="card-title">Tooth inspection</h5>
-                        <p className="card-text">
-                            Comprehensive review of the mouth and detection of broken teeth and other threats.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="card m-2 col-md-3 shadow-5-strong rounded-3 text-center">
-                    <div className="card-body my-4">
-                        <img src={ process.env.PUBLIC_URL + "/image/icons/icon-2.svg" } alt="Icon" className="service-icon mb-4" />
-                        <h5 className="card-title">Tooth removal</h5>
-                        <p className="card-text">
-                            Any broken tooth is a threat to the body, so this danger should be removed from the mouth.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="card m-2 col-md-3 shadow-5-strong rounded-3 text-center">
-                    <div className="card-body my-4">
-                        <img src={ process.env.PUBLIC_URL + "/image/icons/icon-3.svg" } alt="Icon" className="service-icon mb-4" />
-                        <h5 className="card-title">Removal of tartar</h5>
-                        <p className="card-text">
-                            Tartar is the enemy of every human being, because through his presence we have unpleasant breath.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-            <div className="card-group container">
-                <div className="card m-2 col-md-3 shadow-5-strong rounded-3 text-center">
-                    <div className="card-body my-4">
-                        <img src={ process.env.PUBLIC_URL + "/image/icons/icon-4.svg" } alt="Icon" className="service-icon mb-4" />
-                        <h5 className="card-title">Polishing and cleaning</h5>
-                        <p className="card-text">
-                            A simple and safe polishing treatment improves the health of teeth that will get a better look.
-                    </p>
-                    </div>
-                </div>
-
-                <div className="card m-2 col-md-3 shadow-5-strong rounded-3 text-center">
-                    <div className="card-body my-4">
-                        <img src={ process.env.PUBLIC_URL + "/image/icons/icon-5.svg" } alt="Icon" className="service-icon mb-4" />
-                        <h5 className="card-title">Dental implants</h5>
-                        <p className="card-text">
-                            The best solution when you can not save a healthy tooth and you need to apply artificial solutions.
-                    </p>
-                    </div>
-                </div>
-
-                <div className="card m-2 col-md-3 shadow-5-strong rounded-3 text-center">
-                    <div className="card-body my-4">
-                        <img src={ process.env.PUBLIC_URL + "/image/icons/icon-6.svg" } alt="Icon" className="service-icon mb-4" />
-                        <h5 className="card-title">Effective protection</h5>
-                        <p className="card-text">
-                            The cheapest tooth protection is their cleaning and a regular visit to the dentist.
-                    </p>
-                    </div>
-                </div>
-
-            </div>
+            <ServicesComp />
         </div>
 	)
 }
-
