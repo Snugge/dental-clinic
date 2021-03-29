@@ -129,8 +129,8 @@ h1, h2, h3, h4, h5, .navbar-nav  {
   color: #4eb4e8;
   letter-spacing: 1px;
   cursor: pointer;
-  display: block;
-  margin: 15px 0;
+  /* display: block;
+  margin: 15px 0; */
 }
 
 .read-more-link:hover {
